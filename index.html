@@ -20,7 +20,27 @@
         padding-top: 56px;
       }
       .jumbotron {
-        background-color: cadetblue;
+        text-shadow: #000 1px 1px;
+      }
+      .background-header {
+        background-image: url("images/banner1.jpg");
+        background-color: #fafbfc;
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .button-primer {
+        background-color: #00bd8e;
+        border-color: #0b9b6b;
+        color: #fff;
+        text-shadow: 0px 0px;
+      }
+      .button-primer:hover {
+        background-color: #038c6a;
+        color: #fff;
+        text-shadow: 0px 0px;
       }
     </style>
   </head>
@@ -29,7 +49,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <a href="index.html" class="navbar-brand"
-          ><img src="image/codepolitan_logo.png" alt=""
+          ><img src="images/codepolitan_logo.png" alt=""
         /></a>
 
         <button
@@ -67,7 +87,29 @@
     </nav>
 
     <!-- Header -->
-    <header class="jumbotron">...</header>
+    <section class="jumbotron jumbotron-fluid background-header">
+      <div class="container-fluid text-center">
+        <h1 class="display-3" style="color: aliceblue">
+          Solusi Terbaik Belajarmu
+        </h1>
+        <p class="lead" style="font-weight: bold; color: #fff">
+          Kami menyediakan banyak modul yang kamu butuhkan untuk belajar
+          pemrograman dari tingkat dasar sampai mahir
+        </p>
+        <p>
+          <a href="#" class="btn button-primer btn-lg" role="button"
+            >Gabung Sekarang</a
+          >
+          <a
+            href="#"
+            class="btn btn-secondary btn-lg"
+            style="text-shadow: 0px 0px"
+            role="button"
+            >Pelajari Dulu</a
+          >
+        </p>
+      </div>
+    </section>
 
     <!-- Service -->
     <section id="services">...</section>
