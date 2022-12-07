@@ -52,6 +52,24 @@
       .bg-red {
         background-color: #f25757;
       }
+      h2:before,
+      h2:after {
+        background-color: #0b9b6b;
+        content: "";
+        display: inline-block;
+        height: 2px;
+        position: relative;
+        vertical-align: middle;
+        width: 50%;
+      }
+      h2:before {
+        right: 0.5em;
+        margin-left: -50%;
+      }
+      h2:after {
+        left: 0.5em;
+        margin-right: -50%;
+      }
     </style>
   </head>
   <body>
@@ -122,9 +140,11 @@
     </section>
 
     <!-- Service -->
-    <section id="services" class="container service-style">
+    <section id="services" class="container-fluid service-style">
       <div class="row text-center">
-        <div class="col-12"><h2>Mengapa memilih kami?</h2></div>
+        <div class="col-12 pb-4">
+          <h2 class="display-4">Mengapa memilih kami?</h2>
+        </div>
 
         <div class="col-12 col-sm-6 col-lg-3">
           <span class="fa-stack fa-2x">
