@@ -13,77 +13,9 @@
       crossorigin="anonymous"
     />
 
-    <title>Document</title>
+    <title>Landing Page Bootstrap 4</title>
 
-    <style>
-      body {
-        padding-top: 56px;
-      }
-      .jumbotron {
-        text-shadow: #000 1px 1px;
-      }
-      .background-header {
-        background-image: url("images/banner1.jpg");
-        background-color: #fafbfc;
-        height: 400px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      }
-      .button-primer {
-        background-color: #00bd8e;
-        border-color: #0b9b6b;
-        color: #fff;
-        text-shadow: 0px 0px;
-      }
-      .button-primer:hover {
-        background-color: #038c6a;
-        color: #fff;
-        text-shadow: 0px 0px;
-      }
-      .service-style {
-        margin-top: 15px;
-        background-color: #fafbfc;
-      }
-      .text-green {
-        color: #0b9b6b;
-      }
-      .bg-red {
-        background-color: #f25757;
-      }
-      h2:before,
-      h2:after {
-        background-color: #0b9b6b;
-        content: "";
-        display: inline-block;
-        height: 2px;
-        position: relative;
-        vertical-align: middle;
-        width: 50%;
-      }
-      h2:before {
-        right: 0.5em;
-        margin-left: -50%;
-      }
-      h2:after {
-        left: 0.5em;
-        margin-right: -50%;
-      }
-      .button-sekunder {
-        background-color: transparent;
-        border-color: #dbdbdb;
-        color: #0b9b6b;
-      }
-      .button-sekunder:hover {
-        background-color: #0b9b6b;
-        border-color: #dbdbdb;
-        color: #fff;
-      }
-      .cover {
-        background: no-repeat center/cover;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Navigasi Bar -->
@@ -156,7 +88,9 @@
     <section id="services" class="container-fluid service-style">
       <div class="row text-center">
         <div class="col-12 pb-4">
-          <h2 class="display-4">Mengapa memilih kami?</h2>
+          <h2 class="display-4" style="margin-top: 4rem !important">
+            Mengapa memilih kami?
+          </h2>
         </div>
 
         <div class="col-12 col-sm-6 col-lg-3">
@@ -210,15 +144,20 @@
     <section id="product" class="container">
       <div class="row text-center">
         <div class="col-12 pb-4">
-          <h2 class="display-4 text-center mb-5">Produk Kami</h2>
+          <h2
+            class="display-4 text-center mb-5"
+            style="margin-top: 4rem !important"
+          >
+            Produk Kami
+          </h2>
         </div>
         <div class="col-md-4 mb-4">
           <div class="card">
             <img
-              src="images/img1.jpg"
-              alt="Product 1"
               class="card-img-top"
               style="max-height: 400px"
+              src="images/img1.jpg"
+              alt="Product 1"
             />
             <div class="card-body" style="min-height: 250px">
               <h4 class="card-title">
@@ -286,7 +225,12 @@
     <!-- About -->
     <section id="about" class="bg-light">
       <div class="container-fluid-max">
-        <h2 class="display-4 text-center mb-5">Tentang Kami</h2>
+        <h2
+          class="display-4 text-center mb-5"
+          style="margin-top: 4rem !important"
+        >
+          Tentang Kami
+        </h2>
         <div class="row no-gutters">
           <div class="col-12 col-md-6">
             <div style="padding: 20px">
@@ -359,9 +303,15 @@
     <footer class="bg-dark">
       <div class="col-lg-12" style="padding: 10px">
         <div style="text-align: center">
-          <a href="#" class="text-light"><i class="fab fa-facebook"></i></a>
-          <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-light" style="padding: 5px"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" class="text-light" style="padding: 5px"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="text-light" style="padding: 5px"
+            ><i class="fab fa-instagram"></i
+          ></a>
         </div>
         <p class="text-center text-secondary">
           Copryright &copy Sofyan Eko Sanjoyo 2022
