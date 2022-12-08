@@ -80,6 +80,9 @@
         border-color: #dbdbdb;
         color: #fff;
       }
+      .cover {
+        background: no-repeat center/cover;
+      }
     </style>
   </head>
   <body>
@@ -281,7 +284,27 @@
     </section>
 
     <!-- About -->
-    <section id="about">...</section>
+    <section id="about" class="bg-light">
+      <div class="container">
+        <h2 class="display-4 text-center mb-5">Tentang Kami</h2>
+        <div class="row no-gutters">
+          <div class="col-12 col-md-6">Ini merupakan teks pertama</div>
+          <div class="col-12 col-md-6">
+            <div
+              class="vh-100 cover"
+              style="background-image: url('images/banner3.jpg')"
+            ></div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div
+              class="vh-100 cover"
+              style="background-image: url('images/banner2.jpg')"
+            ></div>
+          </div>
+          <div class="col-12 col-md-6">Ini merupakan teks kedua</div>
+        </div>
+      </div>
+    </section>
 
     <!-- Contact -->
     <section id="contact">...</section>
